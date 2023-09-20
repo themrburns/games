@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.documentWrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.gridWrapper {
+    place-items: center;
+    height: 100%;
+    width: min(1000px, 95%);
+    margin-inline: auto;
+    display: grid;
+    grid-template-rows: .75fr 7.5fr .75fr;
+}
+
+.titleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid #afafaf;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    padding: 0 1rem;
+}
+
+/* .contentWrapper {
+    display: grid;
+    place-items: center;
+} */
+
+.contentElement {
+    width: min(900px, 90vw);
+    height: 150px;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    
+}
+
+.contentElement:hover {
+    .contentText {
+        backdrop-filter: brightness(30%);
+    }
+    cursor: pointer;
+}
+
+.contentText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(60%);
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    text-align: center;
+    transition: backdrop-filter .1s ease-in;
+}
+
+.snake {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./../assets/snake.jpg);
+    
+    color: #fff;
+}
+
+.footerWrapper {
+    border-top: 3px solid #afafaf;
+    width: 100%;
+    text-align: center;
+}
+
+
+.footerText {
+    padding: 1rem 0rem;
+    font-size: 1.1rem;
+}

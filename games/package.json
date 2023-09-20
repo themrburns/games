@@ -1,0 +1,27 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "games package.json",
+  "main": "script.js",
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themrburns/games.git"
+  },
+  "keywords": [
+    "games",
+    "portal"
+  ],
+  "author": "themrburns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themrburns/games/issues"
+  },
+  "homepage": "https://github.com/themrburns/games#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
